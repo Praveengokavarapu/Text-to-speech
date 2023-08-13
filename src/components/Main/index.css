@@ -1,0 +1,103 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(84, 212, 212);
+    height: 80vh;  }
+  
+  .main h1 {
+    font-family: var(--primary-font);
+    font-size: 35px;
+    max-width: 600px;
+    margin: 50px 120px;
+  }
+
+  .icon{
+    color: white  ;
+    font-size: medium;
+  }
+  .hero__form {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .hero__form input {
+    height: 30px;
+    width: 500px;
+    border: none;
+    outline: none;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero__form button {
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: var(--primary-color);
+    padding: 5px 10px;
+  
+    font-family: var(--primary-font);
+    font-weight: 200;
+    font-size: 15px;
+  
+    cursor: pointer;
+  }
+  
+  .hero__url {
+    font-size: 20px;
+    color: var(--secondary-color);
+    margin-top: 20px;
+  }
+  
+  .hero__loader {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  
+  /* Responsive styles */
+  @media (max-width: 800px) {
+    .hero h1 {
+      font-size: 30px;
+      margin: 30px;
+    }
+  
+    .hero__form input {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .hero h1 {
+      font-size: 25px;
+      margin: 20px;
+    }
+  
+    .hero__form input {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .hero h1 {
+      font-size: 25px;
+      margin: 45px;
+    }
+  
+    .hero__form input {
+      font-size: 12px;
+    }
+  }
+  
+  .hero__form input::placeholder {
+    font-family: var(--primary-font);
+    font-size: 13px;
+  }

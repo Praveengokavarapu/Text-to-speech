@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+  }
+  .link{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  
+ 
